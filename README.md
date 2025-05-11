@@ -1,6 +1,7 @@
 # ANALYSIS OF GOOGLE PLAYSTORE DATA
-
+---
 ## TABLE OF CONTENTS
+---
 - [Executive Summary](#executive-summary)
 - [Tools](#tools)
 - [Data cleaning process](#data-cleaning-process)
@@ -12,14 +13,18 @@
 
 
 ## Executive Summary
+---
 
 This report presents a comprehensive analysis of mobile application trends on the Google Play Store, utilizing SQL queries to examine app distribution, user ratings, review sentiment, and engagement metrics. The dataset provided insights into distinct app categories, performance metrics, and user feedback, enabling a structured evaluation of market trends.
 
 ## Tools
+---
 - EXCEL
 - MY SQL
 
 ##  Data cleaning process
+---
+
 - Handling Missing Values
 - Removing Duplicates
 - Formatting & Standardization
@@ -28,6 +33,7 @@ This report presents a comprehensive analysis of mobile application trends on th
 - Integrating Multiple Tables
 
 ## Key findings include:
+---
 •	App Category Distribution: The dataset contains six unique app categories and 265 individual apps.
 •	User Ratings: The Books & Reference category recorded the highest average rating (4.37), while Beauty and Auto & Vehicles demonstrated relatively lower rating trends.
 •	Top-Rated Free Applications: Leading applications with a 4.9-star rating include Tickets SDA 2018, CDL Practice Test, and Uber Driver.
@@ -38,7 +44,9 @@ These findings provide valuable insights for app developers, product managers, a
 
 
 ## Methodology
+---
 ### Dataset Overview
+---
 The dataset utilized for this study consists of structured tables encompassing:
 •	Application Table: Contains key attributes such as app name, category, rating, and number of user reviews.
 •	Review Sentiment Table: Captures user-generated feedback with sentiment polarity scores.
@@ -51,6 +59,7 @@ To extract meaningful insights, a range of SQL functions were employed, includin
 •	COUNT(APP) to evaluate app distribution across the various categories.
 
 ## Results
+---
 1. App Category Distribution
 A SQL query was executed to retrieve distinct app categories and total applications within each category:
 •	Total Categories Identified: 6
@@ -88,6 +97,7 @@ A SQL query identified the apps with the highest review count:
 •	Office Suite: Free Office + PDF Editor: 1,002,861 reviews
 
 ## Observations and Limitations
+---
 
 ### Key Observations
 •	The Books & Reference category recorded the highest average user rating, suggesting strong user satisfaction within educational and literary applications.
@@ -96,10 +106,12 @@ A SQL query identified the apps with the highest review count:
 •	Wattpad and Google Play Books dominate review count statistics, highlighting the widespread adoption of mobile reading applications.
 
 ## Limitations
+---
 •	The dataset analyzed is synthetic and was generated for educational purposes rather than real-world application trends.
 •	SQL queries used represent fundamental analytical techniques; further statistical model,xling could enhance predictive insights.
 
 ## Conclusion
+---
 This SQL-driven analysis presents a structured overview of mobile app trends, providing actionable insights for stakeholders in digital application development. Understanding user ratings, sentiment dynamics, and engagement metrics is critical for optimizing app performance and meeting consumer expectations.
-This version ensures professionalism, clarity, and structured analysis while maintaining a formal tone. Let me know if you'd like any modifications or further refinements!
+
 
